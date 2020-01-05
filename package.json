@@ -9,5 +9,8 @@
   },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "scripts": {
+    "release": "lerna version --conventional-commits"
+  }
 }
