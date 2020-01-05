@@ -1,0 +1,22 @@
+{
+  "name": "manytool-web",
+  "version": "0.0.0",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 4000",
+    "build": "next build",
+    "analyze": "ANALYZE=true next build",
+    "start": "next start -p 4000"
+  },
+  "dependencies": {
+    "next": "^9.1.7",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@types/node": "^13.1.4",
+    "@types/react": "^16.9.17",
+    "typescript": "^3.7.4"
+  }
+}
